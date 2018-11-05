@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "653441114131",
+    "firebase_url": "https://controle-de-gastos-ca236.firebaseio.com",
+    "project_id": "controle-de-gastos-ca236",
+    "storage_bucket": "controle-de-gastos-ca236.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:653441114131:android:55ff287b79b52ce6",
+        "android_client_info": {
+          "package_name": "com.example.iossenac.controlededespesas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "653441114131-rtn08tbl8b9jbkeoufn7fqvfbkifa4jb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9zVCioZdaKVLMmncidDo4DKojQUkvvdQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

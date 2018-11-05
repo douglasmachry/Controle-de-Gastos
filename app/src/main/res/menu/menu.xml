@@ -11,7 +11,7 @@
         android:title="@string/menu_edit" />
 
     <item android:id="@+id/delete"
-        android:icon="@android:drawable/my_icon_delete"
+        android:icon="@android:drawable/ic_menu_add"
         android:title="@string/menu_delete" />
 
 </menu>
