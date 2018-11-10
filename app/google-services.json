@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "653441114131-4urraq8tq7adj0ut1k3mufh5p1dq21nb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.iossenac.controlededespesas",
+            "certificate_hash": "35c8d421c23a54caf353a4f3f7df3e88f36398e9"
+          }
+        },
+        {
           "client_id": "653441114131-rtn08tbl8b9jbkeoufn7fqvfbkifa4jb.apps.googleusercontent.com",
           "client_type": 3
         }
@@ -29,8 +37,13 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "653441114131-rtn08tbl8b9jbkeoufn7fqvfbkifa4jb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         },
         "ads_service": {
           "status": 2

@@ -9,6 +9,7 @@ import android.widget.TextView;
 
 import com.example.iossenac.controlededespesas.R;
 
+import java.text.NumberFormat;
 import java.util.List;
 
 /**
@@ -18,6 +19,7 @@ import java.util.List;
 public class DespesaAdapter extends BaseAdapter {
     private List<Despesa> listaDespesas;
     private Context contexto;
+    private NumberFormat nf = NumberFormat.getCurrencyInstance();
 
     public DespesaAdapter(List<Despesa> listaDespesas, Context contexto) {
         this.listaDespesas = listaDespesas;
@@ -47,13 +49,14 @@ public class DespesaAdapter extends BaseAdapter {
         View view = inflater.inflate(R.layout.list_item,null);
 
         TextView textValor = (TextView) view.findViewById(R.id.textViewValor);
-        textValor.setText(Despesa.getValor().toString());
+        String valor = nf.format(Despesa.getValor() / 100);
+        textValor.setText("" + valor);
 
         TextView textDescricao = (TextView) view.findViewById(R.id.textViewDescricao);
         textDescricao.setText(Despesa.getDescricao());
 
         TextView textData = (TextView) view.findViewById(R.id.textViewData);
-        textData.setText(Despesa.getData().getTime().toString());
+        textData.setText(Despesa.getData());
 
         return view;
     }

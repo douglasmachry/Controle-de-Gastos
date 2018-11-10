@@ -8,29 +8,31 @@ import java.util.Date;
  */
 
 public class Despesa {
-    Calendar data;
-    Double valor;
+    String data;
+    double valor;
     String descricao;
 
-    public Despesa(Calendar data, Double valor, String descricao) {
+    public Despesa(){}
+
+    public Despesa(String data, double valor, String descricao) {
         this.data = data;
         this.valor = valor;
         this.descricao = descricao;
     }
 
-    public Calendar getData() {
+    public String getData() {
         return data;
     }
 
-    public void setData(Calendar data) {
+    public void setData(String data) {
         this.data = data;
     }
 
-    public Double getValor() {
+    public double getValor() {
         return valor;
     }
 
-    public void setValor(Double valor) {
+    public void setValor(double valor) {
         this.valor = valor;
     }
 

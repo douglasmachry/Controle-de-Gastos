@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Machr\AppData\Local\Android\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="C:\Users\Machr\Documents\Controle-de-Gastos\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.2_f56be5e833dbda58a5ed91c2fcd1c29872b5aebb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Machr\.android\build-cache\8ee4c058a8dddceb6e136c85b4a624d04a7ddf69\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="C:\Users\Machr\Documents\Controle-de-Gastos\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9aea39721da6d5fa51250a33c168316a6b2f6566\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Machr\.android\build-cache\74a1b7b0c0bf84e0c2536e91f6edbc7d9d7822fd\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\Users\Machr\Documents\Controle-de-Gastos\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b97733d0eeb972c5780635393c5981468c798bcd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Machr\.android\build-cache\f0c52f5e0856b15d7478c2992b56cea698c3e568\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="C:\Users\Machr\Documents\Controle-de-Gastos\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a4ec1543dbd1a059ae35ed6acb0806f4372fc148\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Machr\AppData\Local\Android\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="C:\Users\Machr\Documents\Controle-de-Gastos\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.3.1_b12da3e280cd4b551d020f632d4f614bc3416327\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Machr\.android\build-cache\048f9686bf738ad3f8fb1da3e5ca48c96df76bca\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Machr\Documents\Controle-de-Gastos\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7018d7f6a1eeebc23f9a16dce416a75ca0c2c238\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Machr\.android\build-cache\11cc72f9b92c49254877322c41310109e34723e3\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="C:\Users\Machr\Documents\Controle-de-Gastos\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_af0f4ba05b5bb9e2be719aa456f8e0105647cd75\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Machr\.android\build-cache\c489d1e211044e5b4c353039d0b0ee5ac68d3b39\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="C:\Users\Machr\Documents\Controle-de-Gastos\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c30b3868b567e1d1ed43a995a891d191968760bb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Machr\.android\build-cache\6222dece62805f7e7380c2af474ac6150a40f289\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="C:\Users\Machr\Documents\Controle-de-Gastos\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5cc953d984c4b233d6ab3d187a00f0e9076c23bc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Machr\.android\build-cache\3ab3e9d3031e19978d88440c20345b224fb29260\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="C:\Users\Machr\Documents\Controle-de-Gastos\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5f16b00ddff60fd0294e7b1de56f75c685f0f1e5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Machr\.android\build-cache\59438f704c1e01d513b8d23fd43e5aff1520d7eb\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="C:\Users\Machr\Documents\Controle-de-Gastos\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2d16e9a54066d011ffb2b98588b5935bee619870\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Machr\.android\build-cache\da6f241825cb1e3e961c84ed4eee4d50d8db3fe3\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="C:\Users\Machr\Documents\Controle-de-Gastos\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_94d1f8571af0ef1e099d4d2fcc6cab9d32cb0de9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Machr\Documents\Controle-de-Gastos\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="C:\Users\Machr\Documents\Controle-de-Gastos\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_59db5151be095bea72c9ce577591982f41bde128\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Machr\Documents\Controle-de-Gastos\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="e69d37ab7e765398f23eb63de1e2b0c95dcbe655">
+        <dex dex="C:\Users\Machr\Documents\Controle-de-Gastos\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_4efc898f8d364e5ce0f75ffcd9239e730d65ebb9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Machr\.android\build-cache\3f5d864de35208782935f72199bf42e3e8159677\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="C:\Users\Machr\Documents\Controle-de-Gastos\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a9cce9e4b7704d10a2ebdd44ca651a7148ae60a6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Machr\.android\build-cache\ce2306c9b41ebf527e77d6f20e0ba45b0e3566d3\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="C:\Users\Machr\Documents\Controle-de-Gastos\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4f85acc9cbe646e9002b7ae0ba239cd123035e4d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Machr\.android\build-cache\e5840318e04748defaa5754f25e5d1797285e0c6\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="C:\Users\Machr\Documents\Controle-de-Gastos\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b9aeb80b44e77fb873b176ea13a6727114e551ad\classes.dex" />
+    </item>
+
+</items>

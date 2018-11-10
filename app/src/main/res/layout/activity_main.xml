@@ -8,20 +8,22 @@
 
     <ListView
         android:id="@+id/listaDespesas"
-        android:layout_width="366dp"
-        android:layout_height="494dp"
-        tools:layout_editor_absoluteX="9dp"
-        tools:layout_editor_absoluteY="8dp" />
+        android:layout_width="384dp"
+        android:layout_height="wrap_content" />
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/floatingActionButton"
-        android:layout_width="71dp"
-        android:layout_height="69dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="290dp"
         android:clickable="true"
+        android:focusable="true"
         app:backgroundTint="@android:color/holo_red_dark"
-        app:fabSize="mini"
-        app:srcCompat="@android:drawable/ic_input_add"
-        tools:layout_editor_absoluteX="282dp"
-        tools:layout_editor_absoluteY="427dp" />
+        app:fabSize="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@android:drawable/ic_input_add" />
 
 </android.support.constraint.ConstraintLayout>

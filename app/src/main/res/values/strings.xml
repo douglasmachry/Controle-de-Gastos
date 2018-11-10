@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Controle de Despesas</string>
+    <string name="menu_edit">Editar</string>
+    <string name="menu_delete">Excluir</string>
+    <string name="menu_add">Criar</string>
+    <string name="location_updated">Location Updated: %1$s</string>
+    <string name="launch_activity">MY ACTIVITY</string>
+    <string name="remove_location_updates">REMOVE UPDATE</string>
 </resources>
