@@ -1,12 +1,19 @@
 package com.example.iossenac.controlededespesas;
 
 import android.Manifest;
+import android.app.NotificationManager;
+import android.app.PendingIntent;
 import android.app.Service;
+import android.app.TaskStackBuilder;
+import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.IBinder;
+import android.support.annotation.DrawableRes;
 import android.support.annotation.NonNull;
 import android.support.v4.app.ActivityCompat;
+import android.support.v4.app.NotificationCompat;
+import android.support.v4.app.NotificationManagerCompat;
 import android.util.Log;
 
 import com.google.android.gms.common.api.GoogleApiClient;
@@ -39,11 +46,8 @@ public class LocationUpdatesService extends Service {
                 @Override
                 public void onComplete(@NonNull Task<PlaceLikelihoodBufferResponse> task) {
                     PlaceLikelihoodBufferResponse likelyPlaces = task.getResult();
-                    for (PlaceLikelihood placeLikelihood : likelyPlaces) {
-                        Log.i(TAG, String.format("Place '%s' has likelihood: %g",
-                                placeLikelihood.getPlace().getName(),
-                                placeLikelihood.getLikelihood()));
-                    }
+                    String nomeLocal = likelyPlaces.get(0).getPlace().getName().toString();
+                    GerarNotificacao(nomeLocal);
                     likelyPlaces.release();
                 }
             });
@@ -51,7 +55,33 @@ public class LocationUpdatesService extends Service {
 
     }
 
+    public void GerarNotificacao(String local){
+        int id = 1;
+        String titulo = "Você está em "+local+"?";
+        String texto = "Não esqueça de registrar suas despesas, caso tenha realizado alguma.";
+        int icone = android.R.drawable.ic_dialog_info;
 
+        Intent intent = new Intent(this, MainActivity.class);
+        PendingIntent p = getPendingIntent(id, intent, this);
+
+        NotificationCompat.Builder notificacao = new android.support.v7.app.NotificationCompat.Builder(this);
+        notificacao.setSmallIcon(icone);
+        notificacao.setContentTitle(titulo);
+        notificacao.setContentText(texto);
+        notificacao.setContentIntent(p);
+
+        NotificationManagerCompat nm = NotificationManagerCompat.from(this);
+        nm.notify(id, notificacao.build());
+    }
+
+    private PendingIntent getPendingIntent(int id, Intent intent, Context context){
+        TaskStackBuilder stackBuilder = TaskStackBuilder.create(context);
+        stackBuilder.addParentStack(intent.getComponent());
+        stackBuilder.addNextIntent(intent);
+
+        PendingIntent p = stackBuilder.getPendingIntent(id, PendingIntent.FLAG_UPDATE_CURRENT);
+        return p;
+    }
 
     @Override
     public IBinder onBind(Intent arg0) {

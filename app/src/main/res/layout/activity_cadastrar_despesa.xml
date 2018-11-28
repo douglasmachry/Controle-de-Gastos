@@ -6,6 +6,17 @@
     android:layout_height="match_parent"
     tools:context="com.example.iossenac.controlededespesas.cadastrarDespesa">
 
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:titleTextColor="#FFF"
+        />
+
     <TextView
         android:id="@+id/textViewDespesa"
         android:layout_width="112dp"

@@ -1,6 +1,7 @@
 package com.example.iossenac.controlededespesas.model;
 
 import android.content.Context;
+import android.text.format.DateFormat;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -10,6 +11,7 @@ import android.widget.TextView;
 import com.example.iossenac.controlededespesas.R;
 
 import java.text.NumberFormat;
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -56,7 +58,11 @@ public class DespesaAdapter extends BaseAdapter {
         textDescricao.setText(Despesa.getDescricao());
 
         TextView textData = (TextView) view.findViewById(R.id.textViewData);
-        textData.setText(Despesa.getData());
+        String longV = Despesa.getData();
+        long millisecond = Long.parseLong(longV);
+        // or you already have long value of date, use this instead of milliseconds variable.
+        String dateString = DateFormat.format("dd/MM/yyyy", new Date(millisecond)).toString();
+        textData.setText(dateString);
 
         return view;
     }

@@ -10,7 +10,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:653441114131:android:55ff287b79b52ce6",
         "android_client_info": {
-          "package_name": "com.example.iossenac.controlededespesas"
+          "package_name": "com.iossenac.controlededespesas"
         }
       },
       "oauth_client": [
@@ -18,7 +18,7 @@
           "client_id": "653441114131-4urraq8tq7adj0ut1k3mufh5p1dq21nb.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.example.iossenac.controlededespesas",
+            "package_name": "com.iossenac.controlededespesas",
             "certificate_hash": "35c8d421c23a54caf353a4f3f7df3e88f36398e9"
           }
         },
@@ -40,7 +40,7 @@
           "status": 2,
           "other_platform_oauth_client": [
             {
-              "client_id": "653441114131-rtn08tbl8b9jbkeoufn7fqvfbkifa4jb.apps.googleusercontent.com",
+              "client_id": "653441114131-ug423nk23akpf0an5hrqminh8lopnmv7.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
